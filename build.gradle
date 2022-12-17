@@ -64,6 +64,11 @@ repositories {
     maven {
         url = "https://cursemaven.com"
     }
+    maven {
+        name = "CraftTweaker"
+        url = 'https://maven.blamejared.com/'
+    }
+
 }
 
 dependencies {
@@ -80,7 +85,7 @@ dependencies {
     deobfCompile 'curse.maven:gregtech-ce-unofficial-557242:4068926'
     deobfCompile 'curse.maven:codechicken-lib-1-8-242818:2779848'
     deobfCompile 'curse.maven:the-one-probe-245211:2667280'
-    deobfCompile 'curse.maven:solar-flux-reborn-246974:3050838'
+
 }
 
 sourceSets {
